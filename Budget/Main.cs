@@ -250,5 +250,11 @@ namespace BudgetCSV
 
             waitInput.Set();
         }
+
+        private void helpPictureBox_Click(object sender, EventArgs e)
+        {
+            Budget.HelpForm helpForm = new Budget.HelpForm();
+            helpForm.ShowDialog();  
+        }
     }
 }
